@@ -1,39 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,700;1,100;1,600&family=Roboto:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
     <script src="./script.js" defer></script>
     <title>Portfolio Website</title>
-</head>
-<body>
-    <header>
-        <div class="home">
-            <a href="#">Home</a>
-        </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
+  </head>
+  <body>
+    <header class="header">
+      <div class="home">
+        <a href="#">Home</a>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
-        <section id="about-me">
-            <h2>About Me</h2>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-        </section>
+    <main class="main">
+      <section id="about-me" class="about">
+        <div class="biografia">
+          <h2>Abner Estévez</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+            magni? Recusandae cupiditate sequi vitae, ad officiis veritatis
+            facere nihil quis, itaque ut perferendis est quod suscipit fugiat
+            rem consequatur illum. Adipisci facilis officiis magni ipsa quisquam
+            est earum numquam ex autem, voluptas nihil aliquam asperiores, amet
+            ea voluptatum sapiente at. Fuga voluptas cupiditate sed nisi
+            aspernatur iusto porro laborum veniam. Labore nam consequatur aut
+            aliquam?</p>
+            <br>
+            <p>Hic, accusamus vel. Nam ab, laboriosam illum eius quos est
+            voluptatibus obcaecati facere distinctio asperiores libero eaque rem
+            tenetur quia saepe ad unde officia! Quasi! Eos velit consequuntur,
+            quasi tempore laboriosam dolore dignissimos autem illum ullam itaque
+            odio, explicabo veritatis, culpa qui aut eveniet pariatur maxime
+            officiis debitis! Recusandae necessitatibus odit repellendus
+            placeat, modi dolor. In numquam ducimus eius quaerat ex, veritatis
+            quos saepe. Deserunt dicta maxime laborum ut eligendi reiciendis
+            repudiandae iste praesentium consequuntur, explicabo amet ea? Soluta
+            iure aliquid sed sapiente eveniet sint?
+          </p>
+        </div>
+        <div class="bg-img"></div>
+      </section>
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>PROJECTS</h2>
+          <div class="project-img">
+            <a
+              href="https://abnera.github.io/tulip/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./img/tulip.png" alt="">
+            </a>
+            <h3>History of the tulip</h3>
+            <p>Projecto personal</p>
+          </div>
+          <div class="project-img">
+            <a
+              href="https://abnera.github.io/Chess-Club/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./img/chessClub.png" alt="">
+            </a>
+            <h3>Chess Club</h3>
+            <p>Projecto de práctica de CodeCademy</p>
+          </div>
+          <div class="project-img">
+            <a
+              href="https://abnera.github.io/Company-Home-Page/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./img/company.png" alt="">
+            </a>
+            <h3>Company Home Page</h3>
+            <p>Projecto de práctica de CodeCademy</p>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills">
+        <h2>SKILLS</h2>
+        <div>
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-git"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-solid fa-universal-access"></i>
+          <i class="fa-brands fa-react"></i>
+        </div>
+      </section>
     </main>
-    <footer></footer>
-</body>
+    <footer class="footer">
+      <div class="container-footer">
+        <p>Follow me on:</p>
+        <div class="redes">
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="https://github.com/abnerA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+        <p>Abner Estévez 2022</p>
+      </div>
+    </footer>
+  </body>
 </html>

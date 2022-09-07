@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <script src="./script.js" defer></script>
     <title>Portfolio Website</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="home">
             <a href="./index.html">Home</a>
         </div>
@@ -23,6 +30,28 @@
             </ul>
         </nav>
     </header>
-    <h1>Contact</h1>
+    <main class="main">
+        <div class="container-form">
+            <h1>CONTACT</h1>
+            <div class="form">
+                <form action="index.html" method="post">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="user_name" id="name" required>
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="user_email" id="email" required>
+                    <br>
+                    <label for="msg">Message</label>
+                    <br>
+                    <textarea id="msg" name="user_message" required></textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </main>
 </body>
 </html>
