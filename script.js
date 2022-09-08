@@ -6,6 +6,7 @@ let menu = document.getElementById('menuBars');
 let menuHeader = document.getElementById('header');
 let barsButton = document.getElementById('bars');
 let claseMain = document.getElementById('main');
+let projectsImg = document.getElementById('projects');
 
 function barsMenu () {
     if (menu.style.display != 'flex') {
@@ -23,6 +24,7 @@ function modal () {
     close1.style.display = 'block';
     document.body.style.backgroundColor = 'black';
     open1.style.opacity = '0.5';
+    projectsImg.style.opacity = '0.5';
 }
 
 function modalClose () {
@@ -30,6 +32,7 @@ function modalClose () {
     document.body.style.backgroundColor = '#fafafa';
     document.body.style.opacity = '1';
     open1.style.opacity = '1';
+    projectsImg.style.opacity = '1';
 }
 
 
