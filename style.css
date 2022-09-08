@@ -213,7 +213,7 @@ button:active {
 /* Modal */
 
 .modalContainer {
-    display: block;
+    display: none;
     background-color: var(--second);
     position: fixed;
     width: auto;
@@ -231,7 +231,7 @@ button:active {
     font-size: 1.2rem;
     display: flex;
     position: absolute;
-    border: solid 3px var(--primary);
+    border: solid 3px var(--second);
     border-radius: 50%;
     top: -18px;
     right: -18px;
@@ -240,6 +240,7 @@ button:active {
     cursor: pointer;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 .modal-content {
