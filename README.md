@@ -19,7 +19,7 @@ Este ha sido un camino desafiante, pero al mismo tiempo emocionante y ha sido gr
 recursos de internet por los cuales estoy muy agradecido:
 
 1. [CodeCademy](https://www.codecademy.com/)
-2. [Udemy](https://www.udemy.com/) con FalcoMasters
+2. [Udemy](https://www.udemy.com/) con FalconMasters
 3. [YouTube](https://www.youtube.com/c/YoelvisM) Yoelvis Mulen
 
 Gracias!! 👏

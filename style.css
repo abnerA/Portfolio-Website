@@ -60,10 +60,10 @@ a {
 }
 
 .header .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
   width: 80%;
   margin-right: 10%;
 }
@@ -91,11 +91,9 @@ a {
   font-size: 0.9rem;
 }
 
-
-
 .header .menu ul li {
-    padding: 5px 0px;
-    list-style: none;
+  padding: 5px 0px;
+  list-style: none;
 }
 
 .menu .bars {
@@ -106,40 +104,38 @@ a {
 /* Main */
 
 .main {
-margin: 70px 10% 0 10%;
+  margin: 70px 10% 0 10%;
 }
 
 @media only screen and (max-width: 500px) {
+  /* drop-down */
 
-/* drop-down */
+  .main1 {
+    margin: 140px 10% 0 10%;
+  }
 
-.main1 {
-  margin: 140px 10% 0 10%;
-}
+  .header1 {
+    height: auto;
+  }
 
-.header1 {
-  height: auto;
-}
+  .header .menu ul {
+    display: none;
+  }
 
-.header .menu ul {
-    display: none; 
-}
-
-.menu .bars {
+  .menu .bars {
     display: block;
     color: var(--title);
     font-size: 1.5rem;
-}
+  }
 
-.header .menu .drop-down {
-  width: 100%;
-  display: flex; 
-  height: auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
+  .header .menu .drop-down {
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* Container Form */
@@ -246,7 +242,6 @@ button:active {
 
 .about .biografia p {
   color: var(--text);
-
 }
 
 .about .bg-img {
@@ -258,54 +253,6 @@ button:active {
   border: solid 3px var(--title);
   width: 250px;
   height: 250px;
-  cursor: pointer;
-}
-
-/* Modal */
-
-.modalContainer {
-    display: none;
-    background-color: var(--second);
-    position: fixed;
-    width: 85%;
-    max-width: 750px;
-    height: auto;
-    top: 50%;
-    left: 50%;
-    margin: 20px auto;
-    transform: translate(-50%, -50%);
-    border: solid 2px var(--title);
-    z-index: 2;
-}
-
-.modalContainer .close {
-    background-color: black;
-    color: white;
-    font-size: 1.2rem;
-    display: flex;
-    position: absolute;
-    border: solid 3px var(--second);
-    border-radius: 50%;
-    top: -18px;
-    right: -18px;
-    width: 36px;
-    height: 36px;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.modal-content {
-    padding: 5px; 
-    max-width: auto;
-    height: auto;
-}
-
-.modal-content img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
 }
 
 /* Projects */
@@ -433,10 +380,9 @@ button:active {
 }
 
 @media only screen and (max-width: 1200px) {
-
-    .about {
-        height: auto;
-    }
+  .about {
+    height: auto;
+  }
 
   .about .biografia {
     width: 100%;
@@ -453,7 +399,6 @@ button:active {
 }
 
 @media only screen and (max-width: 400px) {
-
   .about .biografia {
     width: 100%;
     height: auto;
@@ -473,16 +418,14 @@ button:active {
     margin: 15px;
   }
 
-.skills div {
+  .skills div {
     height: auto;
-}
-
+  }
 
   .skills div i {
     font-size: 2rem;
     padding: 15px;
   }
-
 }
 
 @media only screen and (max-width: 280px) {
